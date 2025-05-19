@@ -1,0 +1,9 @@
+venv/
+echo "__pycache__/" >> .gitignore
+echo "*.ipynb_checkpoints/" >> .gitignore
+echo "data/" >> .gitignore
+echo "*.csv" >> .gitignorevenv/
+__pycache__/
+*.ipynb_checkpoints/
+data/
+*.csv
