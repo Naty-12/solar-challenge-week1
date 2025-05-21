@@ -9,9 +9,22 @@ source venv/bin/activate
 pip install -r requirements.txt
 \`\`\`
 
-### Using Conda
-\`\`\`bash
-conda create -n solar-week1 python=3.10 -y
-conda activate solar-week1
-pip install -r requirements.txt
-\`\`\`
+
+## Project Structure 
+├── .vscode/
+│   └── settings.json
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── .gitignore
+├── requirements.txt
+├── README.md
+├── src/
+├── notebooks/
+│   ├── __init__.py
+│   └── README.md
+├── tests/
+│   ├── __init__.py
+├── scripts/
+│   ├── __init__.py
+│   └── README.md
